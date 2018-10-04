@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -49,10 +50,23 @@
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(110, 21);
             this.radioButton1.TabIndex = 1;
+=======
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.SuspendLayout();
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(93, 96);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(110, 21);
+            this.radioButton1.TabIndex = 0;
+>>>>>>> e5344d391bbfdc2a7b97a4d12e3e0d2a5fed82b4
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -64,14 +78,21 @@
             this.radioButton2.Text = "radioButton2";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> e5344d391bbfdc2a7b97a4d12e3e0d2a5fed82b4
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(282, 255);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.listBox1);
+=======
+            this.ClientSize = new System.Drawing.Size(371, 276);
+            this.Controls.Add(this.radioButton1);
+>>>>>>> e5344d391bbfdc2a7b97a4d12e3e0d2a5fed82b4
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
