@@ -16,4 +16,6 @@ namespace demo02
             InitializeComponent();
         }
     }
+    public partial class Form2 : Form
+    { }
 }
